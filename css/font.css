@@ -1,0 +1,27 @@
+@font-face {
+    font-family: roboto;
+    src: url(/font/roboto.ttf);
+}
+
+h1 {
+    font-family: roboto;
+    color: white;
+    display: block;
+    margin: 0.1em;
+    text-align: center;
+    font-size: 32pt;
+    margin: 2em;
+}
+
+h2 {
+    font-family: roboto;
+    color: white;
+    display: block;
+    margin: 0.1em;
+}
+
+p {
+    font-family: roboto;
+    color: rgb(228, 228, 228);
+    margin: 0px;
+}

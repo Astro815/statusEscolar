@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: rgb(54, 70, 94);
+    contain: layout;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+}
+
+html {
+    padding: 15em;
+    padding-block: 1em;
+}
+
+@media only screen and (max-width: 800px) and (min-width: 0px) {
+    html {
+        padding: 1em;
+    }
+}
